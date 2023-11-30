@@ -1,6 +1,6 @@
 public class Calculator {
     public int add(int a, int b){
-        return a + b;
+       return a + b;
     }
 
     public int dif(int a, int b){
@@ -18,9 +18,8 @@ public class Calculator {
     public int times(int a, int b){
         return a * b;
     }
-
-    public int solver(int a, int b, int c) {
-        int result = div(times(a, b), add(c, dif(b, a)));
-        return result;
+  
+    public int solver(String method, int a, int b){
+        return add(div(30, 10), times(5, dif(10, 2)));
     }
 }
