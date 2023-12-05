@@ -9,7 +9,7 @@ name: Java CI with Gradle
 
 on:
   schedule:
-    - cron: '38 19 * * 2'
+    - cron: '30 12 * * 3'
     - cron: '0 22 * * 5'
   push:
     branches: [ "main" ]
