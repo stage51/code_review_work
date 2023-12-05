@@ -36,7 +36,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: ${{ matrix.java }}
-        distribution: 'temurin'
+        distribution: 'adopt'
     - name: Make gradlew executable
       run: chmod +x /home/runner/work/code_review_work/code_review_work/gradlew
     - name: Build with Gradle
