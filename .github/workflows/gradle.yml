@@ -38,7 +38,7 @@ jobs:
         java-version: ${{ matrix.java }}
         distribution: 'adopt'
     - name: Make gradlew executable
-      run: chmod +x /home/runner/work/code_review_work/code_review_work/gradlew
+      run: chmod +x gradlew
     - name: Build with Gradle
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
